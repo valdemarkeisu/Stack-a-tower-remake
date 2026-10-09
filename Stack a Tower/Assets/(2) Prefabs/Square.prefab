@@ -59,7 +59,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 20a7a347a14bac341977979aa55eac20, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -106,7 +106,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SquareScript
   startSpeed: 5
   maxSpeed: 10
-  speedPerBounc: 0.5
+  trueCap: 12
+  speedPerBounc: 2
   value: 1
-  border: 13
+  border: 8
   currentSpeed: 0
+  goodRange: {fileID: 2100000, guid: 01690426443fb5249baa5135de9e3f0d, type: 2}
+  baseMaterial: {fileID: 2100000, guid: 20a7a347a14bac341977979aa55eac20, type: 2}

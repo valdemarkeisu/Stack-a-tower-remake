@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-
+        Score = 0;
         GameManagerInstanceChek();
         inputActions = new InputActions();
         SpawnNewSquare();
@@ -81,7 +81,6 @@ public class GameManager : MonoBehaviour
         if (currentSquare != null)
         {
             currentSquare.GetComponent<SquareScript>().Place();
-            SpawnNewSquare();
         }
     }
 }

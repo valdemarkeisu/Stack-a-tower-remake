@@ -837,11 +837,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6295305161546076502, guid: 64eb7fe1ad6bf5648af55635d17e95c8, type: 3}
       propertyPath: spawnMax
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6295305161546076502, guid: 64eb7fe1ad6bf5648af55635d17e95c8, type: 3}
       propertyPath: spawnMin
-      value: 11
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6295305161546076502, guid: 64eb7fe1ad6bf5648af55635d17e95c8, type: 3}
       propertyPath: scoreText
